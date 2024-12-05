@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body> 
+    <div> 
+        <form action="succes.html"> 
+            <fieldset> 
+              <legend>Votre identité</legend> 
+           
+              <ol> 
+                <li> 
+                  <label for=nom>Nom Prénom *</label> 
+                  <input id=nom name=nom type=text placeholder="Prénom et nom" required > 
+                </li> 
+                <li> 
+                  <label for=email>Email *</label> 
+                  <input id=email name=email type=email placeholder="exemple@domaine.com" required> 
+                </li> 
+                <li> 
+                  <label for=telephone>Téléphone</label> 
+                  <input id=telephone name=telephone type=tel placeholder="par ex;: +21600000000" > 
+                </li> 
+                </ol> 
+            </fieldset> 
+           
+            <fieldset> 
+              <legend>Livraison</legend> 
+                <ol> 
+                  <li> 
+                    <label for=adresse>Adresse *</label> 
+                    <textarea id=adresse name=adresse rows=5 required></textarea> 
+                  </li> 
+                  <li> 
+                    <label for=pay>ville</label> 
+                    <input  list=ville id="pay"> 
+                    <datalist id=ville> 
+                        <option value="TUNIS"></option> 
+                        <option value="Bizerte"></option> 
+                        <option value="Nabeul"></option> 
+                    </datalist> 
+                  </li> 
+                  <li><label for="dat"> Date souhaitée de Livraison</label>  
+                <input type="date" id="dat" name="dat"> 
+                </li> 
+                  <li><label for="heu"> Heure souhaitée de Livraison </label> 
+                    <input type="time" id="heu" name="heu"> 
+                  </li> 
+                </ol> 
+              </fieldset> 
+            <fieldset> 
+              <legend>informations CB</legend> 
+              <ol> 
+                <li> 
+                   
+                        <input id=visa name=type_de_carte type=radio> 
+                        <label for=visa>VISA</label> 
+                       
+                        <input id=amex name=type_de_carte type=radio> 
+                        <label for=amex>AmEx</label> 
+                       
+                        <input id=mastercard name=type_de_carte type=radio> 
+                        <label for=mastercard>Mastercard</label> 
+                       
+                </li> 
+                <li> 
+                  <label for=numero_de_carte>N° de carte</label> 
+                  <input id=numero_de_carte name=numero_de_carte type=number > 
+                </li> 
+                <li> 
+                  <label for=securite>Code sécurité</label> 
+                  <input id=securite name=securite type="password" > 
+                </li> 
+                 
+              </ol> 
+            </fieldset> 
+           
+            <fieldset> 
+              <button type=submit>J'achéte !</button> 
+              <button type="reset">Annuler !</button> 
+            </fieldset> 
+          </form> 
+    </div> 
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #1d8bca;
+    padding: 5px;
+}
+header img {
+    left: auto;
+    width: 150px;
+
+}
+#monresto{
+    padding-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 310px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: #ab2e24;
+}
+nav{
+    font-size: 100%;
+    background-color: #58c9e8;
+    color: #ab2e24;
+    padding: 5px;
+
+    
+}
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+nav ul li {
+    margin-left: 7px;
+    background-color: #e7e7e7;
+    padding: 3px;
+}
+nav ul li:hover{
+    background-color: #d3c6e4;
+
+}
+nav ul li a{
+    color: #ab2e24;
+    text-decoration: none;
+
+}
+section{
+    display: flex;
+    width: 100%;
+    min-height: 450px;
+    background-image: url(images/background.webp);
+    background-size: cover;
+}
+section div{
+    margin: 10px;
+    width: 250px;
+    background-color: #d8e3fa;
+    border: 1px solid #3c6bce;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    transition: 1s;
+}
+section div:hover{
+    background-color: #063494;
+}
+section div p{
+    margin-left: auto;
+    padding-right: auto;
+}
+section div .image{
+    width: 200px;
+    height: 200px;
+}
+section div .nom{
+    color: #000000;
+    font-style: bold;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section div .prix{
+    text-align: center;
+    background-color: #d3c6e4;
+    width: 100px;
+    height: 30px;
+    color: #ab2e24;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 75px;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #58c9e8;
+}
+footer p {
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: #ab2e24;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

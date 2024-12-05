@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+    background-color: bisque;
+    margin: 20px 20px 20px 20px;
+    }
+    #contenu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 10px;
+    float: left;
+    }
+    form{
+    width: 100%;
+    min-height: 40px;
+    padding: 20px;
+    }
+    label{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    width:150px ;
+    display: inline-block;
+    }
+    .text{
+    width: 40%;
+    height: 20px;
+    }
+    textarea{
+    background-color: beige;
+    
+    width: 70%;
+    border: dashed ;
+    }
+    .titreForm{
+    width: 60%;
+    height: 50px;
+    background-color: rgb(162, 162, 156);
+    color: brown;
+    transition: font-size 3s 0.4s, color 3s 0.4s;
+    text-align: center;
+    position: relative;
+    animation-name: deplacer;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+    @keyframes deplacer{
+    0%{
+        left: 10px;
+    }
+    25%{
+        left: 100px;
+    }
+    50%{
+    left: 300px;
+    }
+    75%{
+    left: 100px;
+    }
+    100%{
+    left: 10px;
+    }
+    }
+    .titreForm:hover{
+    font-size: 40px;
+    color:rgb(244, 227, 227) ;
+    }

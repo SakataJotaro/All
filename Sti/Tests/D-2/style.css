@@ -1,0 +1,20 @@
+div{
+    width: 200px;
+    height: 70px;
+    position: relative;
+    padding: 5px;
+    background-color: blue;
+    animation-name: changer-etat;
+    animation-duration: 5s;
+}
+@keyframes changer-etat
+{
+    from
+    {
+        background-color: blue;
+    }
+    to
+    {
+        background-color: black;
+    }
+}

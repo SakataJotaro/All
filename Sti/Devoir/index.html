@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Souhaits des employés</title>
+<link rel="stylesheet" href="stylee.css" />
+</head>
+<body>
+<div class="titreForm">
+<h1>Vos suggestions</h1>
+</div>
+<div id="contenu">
+<form action="" name="f" method="post">
+<p>
+<label for="monsieur">Mr</label
+><input type="radio" name="genre" value="monsieur" id="monsieur" />
+<label for="madame">Mme</label
+><input type="radio" name="genre" value="madame" id="madame" /><br />
+</p>
+<p>
+<label for="nom">Nom</label>
+<input type="text" id="nom" name="nom" class="text" /><br />
+</p>
+<p>
+<label for="prenom">Prénom</label>
+<input type="text" id="prenom" name="prenom" class="text" /><br />
+</p>
+<p>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" /><br />
+</p>
+<p>
+<label for="nom">Choisir Service</label>
+<select name="service">
+<optgroup label="Service Maintenance">
+<option value="Technicien">Technicien</option>
+<option value="Ouvrier">Ouvrier</option>
+</optgroup>
+<optgroup label="Service Informatique">
+<option value="Développeur mobile">Développeur mobile</option>
+<option value="Développeur web">Développeur web</option>
+<option value="Administrateur base de données">
+Administrateur base de données
+</option>
+<option value="Chef de projet">Chef de projet</option>
+</optgroup></select
+><br />
+</p>
+<p>
+<label for="salaire">Degré de Satisfaction</label><br />
+Mauvaise<input type="range" max="20" min="5" value="2" />Excellente
+</p>
+<p>
+<label for="souhait">Vos suggestions et souhaits</label><br />
+
+<textarea
+id="area"
+name="souhait"
+id="souhait"
+placeholder="Votre message"
+cols="40"
+rows="5"
+></textarea>
+</p>
+<p>
+<input type="submit" name="envoyer" value="envoyer" />
+<input type="reset" name="annuler" value="annuler" />
+</p>
+</form>
+</div>
+</body>
+</html>

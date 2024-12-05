@@ -1,0 +1,121 @@
+div{
+    position: relative;
+    padding: 5px;
+    background-color: blue;
+    animation-name: changer-etat;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: unset;
+    width: 440px;
+    margin-left: 1000px;
+    
+}
+@keyframes changer-etat
+{
+    0%
+    {
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    25%
+    {
+        background-color: green;
+        top: 0px;
+        left: 400px;
+    }
+    50%
+    {
+        background-color: blue;
+        top: 200px;
+        left: 400px;
+    }
+    75%
+    {
+        background-color: pink;
+        top: 200px;
+        left: 0px;
+    }
+    100%
+    {
+        background-color: whitesmoke;
+        top: 0px;
+        left: 0px;
+    }
+}
+    
+body { 
+    font-family: Georgia; 
+    padding: 20px;  
+    animation-name: backgroun;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+} 
+  form { 
+    background: #9cbc2c; 
+    border-radius: 5px; 
+    padding: 20px; 
+    width: 400px;  } 
+fieldset { 
+    border: none; 
+    margin-bottom: 10px;  } 
+  legend { 
+    color: #384313; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding-bottom: 10px; 
+    text-shadow: 0 1px 1px #c0d576;  } 
+button:hover { 
+        background: #1e2506; 
+        cursor: pointer; 
+    }  
+    ol li { 
+        background: #b9cf6a; 
+        border-color: #e3ebc3; 
+        border-style: solid; 
+        border-width: 2px; 
+        border-radius: 5px; 
+        line-height: 30px; 
+        list-style: none; 
+        padding: 5px 10px; 
+        margin-bottom: 2px;    } 
+       button{ 
+           margin-left: 60px; 
+           text-align: center; 
+            color: #fff; 
+            line-height: 2.5; 
+            padding: 0 20px; 
+        border-radius: 10px; 
+    background-color: rgba(220, 0, 0, 1); 
+       } 
+@keyframes backgroun
+{
+    0%
+    {
+        background-color: red;
+    }
+    25%
+    {
+        background-color: green;
+        
+    }
+    50%
+    {
+        background-color: blue;
+    }
+    75%
+    {
+        background-color: pink;
+        
+    }
+    100%
+    {
+        background-color: whitesmoke;
+        
+    }
+}
+  
