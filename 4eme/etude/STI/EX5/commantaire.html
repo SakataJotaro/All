@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commantaire</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="controle.js"></script>
+<body>
+    <form action="#" onsubmit="return controle()">
+        <table id="tb2">
+            <tr>
+                <td><Label>Code commente</Label></td>
+                <td><input type="text" id="code" name="code"></td>
+            </tr>
+            <tr>
+                <td><label >Email</label></td>
+                <td><input type="email" id="em" name="em"></td>
+            </tr>
+            <tr>
+                <td><label>Produit</label></td>
+                <td><select size="3" name="sel" id="sel" >
+                    <option value="500">Prod1</option>
+                    <option value="300">Prod2</option>
+                    <option value="350">Prod3</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Prix</label></td>
+                <td><input type="number" name="px" id="px" onclick="prix()"></td>
+            </tr>
+            <tr>
+                <td><label>Devise</label></td>
+                <td><td><input type="radio" name="rd" id="rd">DT</td><td><input type="radio" name="rd" id="rd">Euro</td></td>
+            </tr>
+            <tr><td>
+                <input type="submit" value="Commande"></td><td>
+                <input type="reset" value="Annuler"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

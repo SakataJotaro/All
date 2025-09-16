@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 200px;
+}
+#main,nav{
+    width: 500px;
+    height: 500px;
+}
+h1{
+    margin-left: 35%;
+    color: blue; 
+}
+h1:hover{
+    color: green;
+}
+label:hover{
+    background-color: red;
+}
+label{
+    font-weight: bold;
+}
+#holder{
+    padding-top: 200px;
+}
+nav{
+    float: left;
+}
+#gumball{
+    width: 100%;
+    height: 100%;
+}

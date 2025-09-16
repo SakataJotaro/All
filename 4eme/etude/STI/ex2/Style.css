@@ -1,0 +1,57 @@
+#t1{
+    width: 100%;
+    background-color: gainsboro;
+}
+table tr td a{
+    color: black;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
+    
+
+}
+section{
+    height: 600px;
+    width: 100%;
+    border: none;
+}
+#fi1{
+    border: none;
+}
+#f{
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: darkgray;
+    border: none;
+    height: 400px;
+    
+}
+#trt{
+    margin: 0;
+    margin-left: 100px;
+}
+
+#f2{
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: darkgray;
+    border: none;
+    height: 200px;
+    
+}
+
+td{
+    font-weight: bold;
+}
+#f td{
+    padding-bottom: 10px;
+}
+#f select{
+    margin-bottom: 30px;
+}
+h1{
+    margin-left: 200px;
+    margin-right: 200px;
+}

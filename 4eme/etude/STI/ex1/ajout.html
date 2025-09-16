@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ajout.js"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form  id="f" name="f" action="#" onsubmit="return verif()">
+        <table>
+        <tr>
+            <td>pseudo</td>
+            <td><input type="text" id="p" name="p"></td>
+        </tr>
+        <tr>
+            <td>Sujet:</td>
+            <td><select name="s" id="s"> 
+                <option value="0">Selecetionner une sujet</option>
+                <option value="1">Les enregistrements et les fishiers</option>
+                <option value="2">La récursivite</option>
+                <option value="3">Les algorithmes de tri</option>
+                <option value="4">Les algorithnes arithnetiques</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Commentaire: </td>
+            <td><textarea name="c" id="c"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Ajouter"></td>
+            <td><input type="reset" value="Annuler"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

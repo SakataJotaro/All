@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>commande</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="biblio.js"></script>
+</head>
+<body>
+    <fieldset>
+    <form id="f2" name="f2" action="#" onsubmit="return verif2()">
+            <h3>Commande produit</h3><br><br>
+            <table>
+            <tr><td><label class="b">Nom produit</label>
+            <select name="sl" id="sl">
+                <option value="">Choisir</option>
+                <option value="101">Machine a laver</option>
+                <option value="50"> Pc portable</option>
+                <option value="230">Telephone</option>
+                <option value="350">aspirateur</option>
+            </select>
+            <label class="b">Quantite</label>
+            <input type="number" name="nb" id="nb">
+            </td></tr>
+            <tr>
+                <td>
+            <label class="b">Telephone</label>
+            <input type="number" name="tl" id="tl">
+            <label class="b">Mod de passe</label>
+            <input type="password" name="ps" id="ps">
+            </td></tr>
+            <tr>
+                <td>
+            <input class="b" type="submit" value="Commander">
+            <input class="b" type="reset" value="reset">
+            </td></tr>
+            </table>
+    </form>
+    </fieldset>
+    
+</body>
+</html>

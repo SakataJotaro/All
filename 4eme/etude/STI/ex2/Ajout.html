@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="ajout.js"></script>
+</head>
+<body>
+    <fieldset id="fi1">
+    <Form id="f" name="f" action="#" onsubmit="return verif()" >
+        <table>
+        <tr>
+        <h1 id="trt">AJOUTE D'UNE RECLAMATION</h1>
+        </tr>   
+        <tr>
+            <td></td>
+            <td>Tel client :</td>
+            <td><input type="number" id="tel" name="tel"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Categorie :</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <select name="cat" id="cat">
+                <option value="">Choisir une categorie</option>
+                <option value="Auth">Authentification</option>
+                <option value="Bran">Branchement</option>
+                <option value="Sync">Syncronisation</option>
+                <option value="Autr">Autres</option>
+                </select>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td></td>
+            <td>
+                Descreption :
+            </td>
+        </tr><tr>
+            <td></td>
+            <td>
+                <textarea name="a" id="a"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Valider" onsubmit="ver()"> 
+                <input type="reset" value="Annuler">
+            </td>
+        </tr>
+        </table>
+    </Form>
+    </fieldset>
+</body>
+</html>

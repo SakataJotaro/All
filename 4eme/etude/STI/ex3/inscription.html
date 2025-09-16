@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="biblio.js"></script>
+</head>
+<body>
+    <form id="f1" name="f1" action="#" onsubmit="return verif1()">
+        
+        <fieldset id="fi1">
+            <legend>Inscription d'un client</legend>
+            <table>
+                <tr>
+                    <td>
+            <label for="nm">Nom :</label>
+            </td>
+            <td>
+            <input type="text" name="nm" id="nm">
+            </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="prnm">Prenom:</label>
+                    </td>
+                    <td><input type="text" name="prnm" id="prnm"></td>
+                </tr>
+                                    <tr>
+                        <td>
+                            <label for="tl">Tel :</label>
+                        </td>
+                        <td>
+                            <input type="nubmer" name="tl" id="tl">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="ta">Adresse :</label></td>
+                        <td><textarea name="ta" id="ta"></textarea></td>
+                    </tr>
+             </table>
+        </fieldset>
+        <fieldset id="fi2">
+            <table>
+                <tr>
+                    <td><label for="ps1">Mot de passe :</label></td>
+                    <td><input type="password" name="ps1" id="ps1"></td>
+                </tr>
+                <tr><td>
+                    <label for="ps2">Confirmation de mot de passe :</label>
+                    </td>
+                    <td>
+                        <input type="password" name="ps2" id="ps2">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> 
+                    <input type="reset" value="Annuler" onsubmit="ver1()" ></input>
+                    <input type="submit" value="Valider" ></input>
+                </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+#fi1{
+    border-style: solid;
+    margin-right: 300px;
+}
+#fi2{
+    border-style: solid;
+    margin-right: 300px;
+}
+section{
+    width: 100%;
+}
+fieldset{
+    border: 1px solid black;
+    border-width: 2px;
+}
+#cadre1{
+    width: 700px;
+    height: 300px;
+}
+#cadre2{
+ width: 700px;
+height: 300px;
+}
+#f2{
+    width: 100%;
+    
+}
+body{
+    font-weight: bolder;
+}
+.b{
+    font-weight: bold;
+}

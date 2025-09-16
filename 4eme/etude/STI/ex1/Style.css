@@ -1,0 +1,31 @@
+section{
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+header{
+    background-color: grey;
+}
+h1{
+    color: red;
+    
+    
+}
+h1:hover{
+    background-color: red;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    background-color: black;
+    color: red;
+}
